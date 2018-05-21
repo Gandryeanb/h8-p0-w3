@@ -1,0 +1,6 @@
+1.menentukan tahun
+2.membagi tahun dengan 4
+  2.a apabila hasil pembagian adalah bilangan desimal
+      lalu teriak bukan kabisat
+  2.b apabila hasil pembagian adalah bilangan nondesimal
+      lalu teriak kabisat

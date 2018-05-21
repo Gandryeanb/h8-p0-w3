@@ -1,0 +1,6 @@
+1.membuka penutup mesin cuci
+2.memasukan baju satu-persatu dan menghitung jumlah total baju
+  2.a apabila jumlah baju yang dihitung kurang dari 20, kembali 
+      ketahap 2
+3.menutup penutup mesin cuci
+4.menghidupkan mesin cuci

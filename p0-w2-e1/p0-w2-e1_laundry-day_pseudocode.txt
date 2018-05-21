@@ -1,0 +1,10 @@
+SET b = 0
+    h = 0
+
+WHILE b <= 20
+  DO b + 1 = h && SET b = h
+  IF b <= 20
+    DISPLAY 'total baju' b
+    ELSE
+    DISPLAY 'baju siap di cuci'
+  END IF

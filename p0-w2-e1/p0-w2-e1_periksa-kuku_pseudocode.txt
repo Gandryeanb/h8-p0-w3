@@ -1,0 +1,11 @@
+SET m = 0
+
+WHILE m <= 40
+  DO m + 1 = m && 
+    IF 'KUKU PANJANG'
+    DO DISPLAY 'CUBIT'
+    ELSE
+    DO DISPLAY 'BAGUS NAK'
+  
+
+
