@@ -9,7 +9,7 @@
 
 ---------newton pseudocode----------
 
-SET   n = m X a
+SET   n = m TIMES a
 SET   m = 600kg
 SET   a = 2m/s2
 CAL   n
@@ -30,13 +30,11 @@ DISP  n
 SET  y = any
 
 CAL  
-  IF (y mod 4 = 0)
-  {
-  DO DISPLAY = 'TAHUN KABISAT'
-  ELSE 
-  DO DISPLAY = 'BUKAN TAHUN KABISAT'
-  }
-  END IF
+IF y MOD 4 = 0
+DO DISPLAY = 'TAHUN KABISAT'
+ELSE 
+DO DISPLAY = 'BUKAN TAHUN KABISAT'
+END IF
 
 ---------loundry algoritma----------
 
@@ -50,18 +48,13 @@ CAL
 ---------loundry pseudocode---------
 
 SET b = 0
-
-WHILE (b < 20)
-  }
-  IF (b < 20)
-    {
-    DO DISPLAY 'total baju'+b
-    ELSE
-    DO DISPLAY 'baju siap di cuci'
-    }
-  END IF	
-  b++
-  {
+WHILE b LESSTHAN 20
+IF b LESSTHAN 20
+DO DISPLAY 'total baju'PLUS b
+ELSE
+DO DISPLAY 'baju siap di cuci'
+END IF	
+b PLUS 1
 
 ---------kuku algoritma---------
 
@@ -80,17 +73,13 @@ WHILE (b < 20)
 
 SET m = 0
 
-WHILE (m < 40)
-  { 
-    IF ('KUKU PANJANG')
-    {
-    DO DISPLAY 'CUBIT'
-    ELSE
-    DO DISPLAY 'BAGUS NAK'
-    }
-    END IF
-  DO m++
-  } 
+WHILE m LESSTHAN 40
+IF 'KUKU PANJANG'
+DO DISPLAY 'CUBIT'
+ELSE
+DO DISPLAY 'BAGUS NAK'
+END IF
+DO m PLUS 1
 
 ----------------------------------
 
