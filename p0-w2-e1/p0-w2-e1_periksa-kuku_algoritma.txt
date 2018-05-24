@@ -1,0 +1,12 @@
+1.berdiri dari kursi guru
+2.mendatangi murid dari meja ke 1
+3.memeriksa kuku murid
+  3.a apabila kuku murid panjang, murid di cubit
+      dan mendatangi murid selanjutnya lalu kembali ke tahap 3
+  3.2 apabila kuku murid pendek, murid di puji
+      dan mendatangi murid selanjutnya lalu kembali ke tahap 3
+  3.c apabila sudah tidak ada murid yg akan di periksa
+      selanjutnya, lanjut ke tahap 4
+4.duduk ke kursi guru dan memulai pelajaran
+
+
