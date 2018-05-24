@@ -1,27 +1,18 @@
-for (var row1 = 5; row1 > 0; row1--) {
+for (var a = 5; a > 0; a--) {
   console.log("*");
 }
 console.log("");
-for (var row2 = 5; row2 > 4; row2--) {
+var b = 5
+
+for (var a = b; b > 0; b--) {
   console.log("*****")
-    for (var row2 = 5; row2 > 1; row2--) {
+    for (var a = b; b > 3; b--) {
       console.log("*****")
-        
     }
 }
 console.log("");
-for (var row3 = 5; row3 > 0; row3--) {
-  console.log("*");
-  for (var row3 = 5; row3 > 1; row3--) {
-    console.log("**");
-    for (var row3 = 5; row3 > 2; row3--) {
-      console.log("***");
-      for (var row3 = 5; row3 > 3; row3--) {
-        console.log("****");
-        for (var row3 = 5; row3 > 4; row3--) {
-          console.log("*****");
-        }
-      }
-    }
-  }
+var c = "";
+for (var a = 0; a < 5; a++) {
+  console.log(c = c+"*");
 }
+
