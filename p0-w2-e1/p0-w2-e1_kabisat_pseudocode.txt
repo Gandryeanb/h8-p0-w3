@@ -1,8 +1,0 @@
-SET  y = any
-
-CAL  
-  IF y mod 4 = 0
-  DO DISPLAY = 'TAHUN KABISAT'
-  ELSE 
-  DO DISPLAY = 'BUKAN TAHUN KABISAT'
-  END IF

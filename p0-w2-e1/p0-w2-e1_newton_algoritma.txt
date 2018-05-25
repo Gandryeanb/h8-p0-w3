@@ -1,6 +1,0 @@
-1.tentukan rumus newton
-2.tentukan berat masa
-3.tentukan kecepatan
-4.hitung rumus newton
-5.simpan hasil hitungan
-6.menyebutkan hasil hitungan newton

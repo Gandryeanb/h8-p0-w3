@@ -1,7 +1,0 @@
-SET   n = m TIMES a
-SET   m = 600kg
-SET   a = 2m/s2
-CAL   n
-SAVE  n
-DISP  n
-

@@ -1,9 +1,0 @@
-SET b = 0
-
-WHILE b < 20 
-IF b < 20
-DO DISPLAY 'total baju'PLUS b
-ELSE
-DO DISPLAY 'baju siap di cuci'
-END IF	
-b PLUS 1
