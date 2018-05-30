@@ -5,8 +5,8 @@ function palindrome (kata) {
   for (var a = 0; a < x; a++) {
     store1 = store1 + kata[a];
   }
-  for (var a = kata.length; a > kata.length - x; a--) {
-    store2 = store2 + kata[a-1];
+  for (var b = kata.length; b > kata.length - x; b--) {
+    store2 = store2 + kata[b-1];
   }
   if (store1 === store2) {
     return true;
