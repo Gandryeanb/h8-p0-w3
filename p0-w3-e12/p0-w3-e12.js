@@ -13,7 +13,7 @@ function tentukanDeretGeometri(arr) {
    * -menambahkan hasil perhitungan loop ke variable numCompare
    */
   for (var init = 0; init < arr.length - 1; init++) {
-    numCompare.push(arr[init] * numRange)
+    numCompare.push(numCompare[init] * numRange)
   }
   /* -membuat kondisi if untuk mengcompare hasil hitungan angka 
    *  geometri dengan value arr, apabila sama lalu display true
